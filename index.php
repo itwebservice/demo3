@@ -93,7 +93,7 @@ if (sizeof($package_tour_data) != 0) { ?>
 
             </div>
 
-            <h2 class="ts-section-title">DREAM DESTINATIONS FOR HOLIDAY</h2>
+            <h2 class="ts-section-title">POPULAR PACKAGE TOUR</h2>
 
 
             <div class="ts-blog-content dream-destinations">
@@ -233,12 +233,12 @@ if (sizeof($package_tour_data) != 0) { ?>
 
     <div class="container">
 
-        <h2 class="ta-section-title">EXPERIENCED THE COLOURFUL WORLD!</h2><br>
-        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</h6>
+        <h2 class="ta-section-title">EXPLORE DOMESTIC & INTERNATIONAL DESTINATIONS</h2><br>
+        <h6>The ultimate treasures of unforgettable experiences await here. You will find yourself in love as you set foot in India.</h6>
         
         <ul>
         <li style="padding-left: 40%;">
-                    <a class="btn header-btn-cta" href="<?= BASE_URL_B2C . 'offers.php' ?>">View More</a>
+                    <a class="btn header-btn-cta" href="<?= BASE_URL_B2C . 'offers.php' ?>">VIEW MORE</a>
                   </li>
         </ul>
 
@@ -272,9 +272,9 @@ if (sizeof($package_tour_data) != 0) { ?>
 
                         <h2 class="ts-section-title">WHO WE ARE</h2>
 
-                        <p class="ts-section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p class="ts-section-description">We give you, the guest, the power to select or create your itinerary. Yes, at Indian Holiday, you can choose any of our inbound tours & outbound tours accross India & International OR add your inputs to the existing tours and create a fresh, brand new tour yourself, tailor-made to your needs. Our tagline sums it up perfectly â€“ Holiday your way with us.</p>
                         
-                        <p class="ts-section-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <p class="ts-section-description">Our main focuses are - Individual travellers, Groups of companies (Meetings, Incentives, and Conferences), social (marriages, anniversaries, and birthdays) or just about any kind groups travelling and cruising.</p>
 
                     </div>
 
@@ -322,7 +322,7 @@ if (sizeof($group_tour_data) != 0) { ?>
 
             </div>
 
-            <h2 class="ts-section-title">DREAM DESTINATIONS FOR GROUP TOUR</h2>
+            <h2 class="ts-section-title">POPULAR GROUP TOUR</h2>
 
 
 
@@ -505,7 +505,7 @@ if (sizeof($group_tour_data) != 0) { ?>
 
                 <div class="ts-rate-content">
 
-                    <h2 class="ts-section-title">BEST TRAVEL SERVICES</h2>
+                    <h2 class="ts-section-title">OUR SPECIALIZED SERVICES</h2>
 
                     <p class="ts-section-description">Get the best available price for every Packages, Hotel, Flight, Visa or Vehicle booking.<br /> No hidden charges.</p>
 
@@ -639,7 +639,7 @@ if (sizeof($b2c_testmtest) != 0) {
 
                                         <h3 class="ts-testimonial-name"><?= $name ?></h3>
 
-                                        <p class="ts-testimonial-description"><?= substr($testm[$testm_count]->testm, 0, 400) . '[¡K]' ?></p>
+                                        <p class="ts-testimonial-description"><?= substr($testm[$testm_count]->testm, 0, 400) . '[ï¿½K]' ?></p>
 
                                         <a target='_blank' href="testimonials.php" class="ts-readmore-link">
 
@@ -796,7 +796,7 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                                     <div class="custom_texteditor">
 
-                                        <?= substr($blog[$blog_count]->description, 0, 500) . '[¡K]' ?>
+                                        <?= substr($blog[$blog_count]->description, 0, 500) . '[ï¿½K]' ?>
 
                                     </div>
                                     </p>
@@ -880,7 +880,7 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                         </span>
 
-                        <a href="tel: <?= $cached_array[0]->company_profile_data[0]->contact_no ?>" class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
+                        <a  <?= $cached_array[0]->company_profile_data[0]->contact_no ?>" class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
 
                     </li>
 
