@@ -173,18 +173,18 @@ if(sizeof($hotel_results_array)>0){
                     >Gallery</a
                     >
                 </li>
-                <li class="nav-item">
-                    <a
-                    class="nav-link"
-                    id="reviews-tab<?=$hotel_results_array[$hotel_i]['hotel_id'] ?>"
-                    data-toggle="tab"
-                    href="#reviews<?=$hotel_results_array[$hotel_i]['hotel_id'] ?>"
-                    role="tab"
-                    aria-controls="reviews"
-                    aria-selected="true"
-                    >Reviews</a
-                    >
-                </li>
+                    <!--    <li class="nav-item">
+                            <a
+                            class="nav-link"
+                            id="reviews-tab<?=$hotel_results_array[$hotel_i]['hotel_id'] ?>"
+                            data-toggle="tab"
+                            href="#reviews<?=$hotel_results_array[$hotel_i]['hotel_id'] ?>"
+                            role="tab"
+                            aria-controls="reviews"
+                            aria-selected="true"
+                            >Reviews</a
+                            >
+                        </li>-->
                 </ul>
 
                 <div class="tab-content" id="myTabContent">

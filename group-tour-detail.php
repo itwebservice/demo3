@@ -250,12 +250,6 @@ style="background-image: url(../images/title-background.jpg); -->
 
                     </li>
 
-                    <li class="nav-item">
-
-                        <a class="nav-link" id="pills-covid-tab" data-toggle="pill" href="#pills-covid" role="tab" aria-controls="pills-covid" aria-selected="false">Covid 19</a>
-
-                    </li>
-
                 </ul>
 
                 <div class="tab-content ts-tab-content" id="pills-tabContent">
@@ -667,17 +661,7 @@ style="background-image: url(../images/title-background.jpg); -->
                         </div>
 
                     </div>
-
-                    <div class="tab-pane fade" id="pills-covid" role="tabpanel" aria-labelledby="pills-covid-tab">
-
-                        <div class="ts-tab-content__inner">
-
-                            <p>Static Content..</p>
-
-                        </div>
-
-                    </div>
-
+                    
                 </div>
 
             </div>
