@@ -910,9 +910,28 @@ if (sizeof($b2c_blog) != 0) { ?>
 
 <!-- Updates Section End -->
 
+<!-- Partner Slider Start -->
+
 <?php } ?>
 
+<div class="container mt-5 mb-5 pt-5 pb-5">
+    <h1 class="text-center mt-5 mb-5">Our Partners
 
+        <?php
+        $logos = json_decode($cached_array[0]->cms_data[0]->assoc_logos);
+        ?>
+    </h1>
+    <div class="logo-slider">
+        <?php foreach ($logos as $logo) { ?>
+        <div class="item"><a href="#"><img
+                    src="https://itourscloud.com/destination_gallery/association-logo/<?= $logo ?>.png" width="200"
+                    alt=""></a>
+        </div>
+        <?php } ?>
+    </div>
+</div>
+
+<!-- Partner Slider End -->
 
 <!-- Contact Section Start -->
 
@@ -1272,6 +1291,23 @@ include 'layouts/footer.php';
 <script type="text/javascript" src="view/group_tours/js/index.js"></script>
 
 <script type="text/javascript" src="js/scripts.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<!--partner slider script-->
+<script>
+$('.logo-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+    autoplayspeed: 2000,
+    infiniite: true
+});
+</script>
+<!--End partner slider script-->
 
 <script>
 $(document).ready(function() {
