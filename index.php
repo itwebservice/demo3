@@ -1292,8 +1292,6 @@ include 'layouts/footer.php';
 
 <script type="text/javascript" src="js/scripts.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 <!--partner slider script-->
@@ -1303,8 +1301,24 @@ $('.logo-slider').slick({
     slidesToScroll: 1,
     dots: true,
     arrows: true,
+    autoplay: true,
     autoplayspeed: 2000,
-    infiniite: true
+    infinite: true,
+    responsive: [{
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 </script>
 <!--End partner slider script-->
