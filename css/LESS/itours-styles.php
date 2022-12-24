@@ -1446,11 +1446,16 @@ text-transform: uppercase;
 transition: all ease-in-out 0.3s;
 }
 
-.ts-blog-card-link,
-.ts-blog-card-link:hover {
+.ts-blog-card-link{
 background-color: var(--main-bg-color);
 color: #ffffff;
 text-decoration: none;
+}
+.ts-blog-card-link:hover{
+background: #444444 !important;
+color: #ffffff;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
 }
 
 .ts-blog-card-img-link {
