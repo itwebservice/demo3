@@ -40,7 +40,7 @@
 
                 for ($i = 0; $i < sizeof($col3_tours); $i++) {
 
-                  if ($i > 5) {
+                  if ($i > 4) {
 
                     break;
                   }
@@ -189,7 +189,7 @@
 
           <div class="col-sm-6 col-md-3 foot-social">
 
-            <h2 class="c-heading">Follow with us</h2>
+            <h2 class="c-heading">Join With Us</h2>
 
             <p>Join our social media's and get more update of latest tours, sightseeing & attractions.</p>
 
@@ -201,11 +201,14 @@
 
               <?php
 
+              if ($social_media[0]->tw != '') { ?><li><a target="_blank" href="<?= $social_media[0]->tw ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li><?php } ?>
+              <?php
+
               if ($social_media[0]->wa != '') { ?><li><a target="_blank" href="<?= $social_media[0]->wa ?>"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li><?php } ?>
 
               <?php
 
-              if ($social_media[0]->tw != '') { ?><li><a target="_blank" href="<?= $social_media[0]->tw ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li><?php } ?>
+              if ($social_media[0]->inst != '') { ?><li><a target="_blank" href="<?= $social_media[0]->inst ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li><?php } ?>
 
               <?php
 
@@ -215,9 +218,6 @@
 
               if ($social_media[0]->yu != '') { ?><li><a target="_blank" href="<?= $social_media[0]->yu ?>"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li><?php } ?>
 
-              <?php
-
-              if ($social_media[0]->inst != '') { ?><li><a target="_blank" href="<?= $social_media[0]->inst ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li><?php } ?>
 
             </ul>
 

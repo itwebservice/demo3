@@ -348,7 +348,7 @@ global $app_contact_no;
 
                         </div>
 
-                        <button type="submit" id="contact_form_send" class="btn btn-primary">Send Message</button>
+                        <button type="submit" id="contact_form_send" class="btn btn-primary">SUBMIT</button>
 
                     </form>
 

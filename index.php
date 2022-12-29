@@ -218,7 +218,7 @@ if (sizeof($package_tour_data) != 0) { ?>
 
                                 <div class="ts-blog-card-img">
 
-                                    <a href="<?= $file_name ?>" class="ts-blog-card-img-link">
+                                    <a target='_blank' href="<?= $file_name ?>" class="ts-blog-card-img-link">
 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7c-12.23-91.55-87.28-166-178.9-177.6c-136.2-17.24-250.7 97.28-233.4 233.4c11.6 91.64 86.07 166.7 177.6 178.9c53.81 7.191 104.3-6.235 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 .0003C515.9 484.7 515.9 459.3 500.3 443.7zM288 232H231.1V288c0 13.26-10.74 24-23.1 24C194.7 312 184 301.3 184 288V232H127.1C114.7 232 104 221.3 104 208s10.74-24 23.1-24H184V128c0-13.26 10.74-24 23.1-24S231.1 114.7 231.1 128v56h56C301.3 184 312 194.7 312 208S301.3 232 288 232z" fill="#ffffff" />
@@ -232,7 +232,7 @@ if (sizeof($package_tour_data) != 0) { ?>
 
                                 <div class="ts-blog-card-body">
 
-                                    <a href="<?= $file_name ?>" class="ts-blog-card-title"><?= $package_name1 ?></a>
+                                    <a target='_blank' href="<?= $file_name ?>" class="ts-blog-card-title"><?= $package_name1 ?></a>
 
                                     <p class="ts-blog-time">
 
@@ -290,7 +290,7 @@ if (sizeof($package_tour_data) != 0) { ?>
 
         <ul>
             <li style="padding-left: 40%;">
-                <a class="btn header-btn-cta" href="<?= BASE_URL_B2C . 'offers.php' ?>">VIEW MORE</a>
+                <a target="_blank" class="btn header-btn-cta" href="<?= BASE_URL_B2C . 'offers.php' ?>">READ MORE</a>
             </li>
         </ul>
 
@@ -484,7 +484,7 @@ if (sizeof($group_tour_data) != 0) { ?>
 
                                 <div class="ts-blog-card-img">
 
-                                    <a href="<?= $file_name ?>" class="ts-blog-card-img-link">
+                                    <a target='_blank' href="<?= $file_name ?>" class="ts-blog-card-img-link">
 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7c-12.23-91.55-87.28-166-178.9-177.6c-136.2-17.24-250.7 97.28-233.4 233.4c11.6 91.64 86.07 166.7 177.6 178.9c53.81 7.191 104.3-6.235 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 .0003C515.9 484.7 515.9 459.3 500.3 443.7zM288 232H231.1V288c0 13.26-10.74 24-23.1 24C194.7 312 184 301.3 184 288V232H127.1C114.7 232 104 221.3 104 208s10.74-24 23.1-24H184V128c0-13.26 10.74-24 23.1-24S231.1 114.7 231.1 128v56h56C301.3 184 312 194.7 312 208S301.3 232 288 232z" fill="#ffffff" />
@@ -498,7 +498,7 @@ if (sizeof($group_tour_data) != 0) { ?>
 
                                 <div class="ts-blog-card-body">
 
-                                    <a href="<?= $file_name ?>" class="ts-blog-card-title"><?= $tour_name1 ?></a>
+                                    <a target='_blank' href="<?= $file_name ?>" class="ts-blog-card-title"><?= $tour_name1 ?></a>
 
                                     <p class="ts-blog-time">
 
@@ -817,42 +817,6 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                                     <a href="single-blog.php?blog_id=<?= $blog[$blog_count]->entry_id ?>" target="_blank" class="ts-update-title"><?= $blog[$blog_count]->title ?></a>
 
-                                    <!-- <ul class="ts-update-info-list">
-
-                                        <li class="ts-update-info-item">
-
-                                            <i class="fa fa-user-o"></i>
-
-                                            <a href="#" class="ts-update-info-text">Gauri Salvi</a>
-
-                                        </li>
-
-                                        <li class="ts-update-info-item">
-
-                                        <i class="fa fa-calendar"></i>
-
-                                            <a href="#" class="ts-update-info-text"> August 7, 2019 </a>
-
-                                        </li>
-
-                                        <li class="ts-update-info-item">
-
-                                        <i class="fa fa-files-o"></i>
-
-                                            <a href="#" class="ts-update-info-text">Piligrim Tour</a>
-
-                                        </li>
-
-                                        <li class="ts-update-info-item">
-
-                                            <i class="fa fa-comments-o"></i>
-
-                                            <a href="#" class="ts-update-info-text">0 Comment</a>
-
-                                        </li>
-
-                                    </ul> -->
-
                                     <p class="ts-updates-description">
 
                                     <div class="custom_texteditor">
@@ -900,7 +864,7 @@ if (sizeof($b2c_blog) != 0) { ?>
 <?php } ?>
 
 <div class="container mt-5 mb-5 pt-5 pb-5">
-    <h1 class="text-center mt-5 mb-5">Our Partners
+    <h1 class="text-center mt-5 mb-5">OUR PARTNERS
 
         <?php
         $logos = json_decode($cached_array[0]->cms_data[0]->assoc_logos);
@@ -958,7 +922,7 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                         </span>
 
-                        <a <?= $cached_array[0]->company_profile_data[0]->contact_no ?>" class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
+                        <a href="<?= $cached_array[0]->company_profile_data[0]->contact_no ?>" class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
 
                     </li>
 
@@ -1010,15 +974,15 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                     <?php }
 
-                    if ($social_media[0]->inst != '') { ?>
+                    if ($social_media[0]->tw != '') { ?>
 
                         <li class="ts-social-media-item">
 
-                            <a target="_blank" href="<?= $social_media[0]->inst ?>" class="ts-social-media-link">
+                            <a target="_blank" href="<?= $social_media[0]->tw ?>" class="ts-social-media-link">
 
                                 <span class="ts-contact-info-icon">
 
-                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-twitter"></i>
 
                                 </span>
 
@@ -1046,33 +1010,15 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                     <?php }
 
-                    if ($social_media[0]->tw != '') { ?>
+                    if ($social_media[0]->inst != '') { ?>
 
                         <li class="ts-social-media-item">
 
-                            <a target="_blank" href="<?= $social_media[0]->tw ?>" class="ts-social-media-link">
+                            <a target="_blank" href="<?= $social_media[0]->inst ?>" class="ts-social-media-link">
 
                                 <span class="ts-contact-info-icon">
 
-                                    <i class="fa fa-twitter"></i>
-
-                                </span>
-
-                            </a>
-
-                        </li>
-
-                    <?php }
-
-                    if ($social_media[0]->yu != '') { ?>
-
-                        <li class="ts-social-media-item">
-
-                            <a target="_blank" href="<?= $social_media[0]->yu ?>" class="ts-social-media-link">
-
-                                <span class="ts-contact-info-icon">
-
-                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-instagram"></i>
 
                                 </span>
 
@@ -1091,6 +1037,24 @@ if (sizeof($b2c_blog) != 0) { ?>
                                 <span class="ts-contact-info-icon">
 
                                     <i class="fa fa-linkedin"></i>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+                    <?php }
+
+                    if ($social_media[0]->yu != '') { ?>
+
+                        <li class="ts-social-media-item">
+
+                            <a target="_blank" href="<?= $social_media[0]->yu ?>" class="ts-social-media-link">
+
+                                <span class="ts-contact-info-icon">
+
+                                    <i class="fa fa-youtube"></i>
 
                                 </span>
 
@@ -1174,7 +1138,7 @@ if (sizeof($b2c_blog) != 0) { ?>
 
                         </div>
 
-                        <button type="submit" id="contact_form_send" class="btn btn-primary">Send Message</button>
+                        <button type="submit" id="contact_form_send" class="btn btn-primary">SUBMIT</button>
 
                     </form>
 
@@ -1330,9 +1294,6 @@ include 'layouts/footer.php';
             format: 'm/d/Y H:i',
             minDate: new Date()
         });
-
-        document.getElementById('return_date').readOnly = true;
-
 
 
         var service = '<?php echo $service; ?>';

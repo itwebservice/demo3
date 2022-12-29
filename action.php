@@ -843,7 +843,7 @@ else if($type == '7') {
 
                             <div class="form-row">
 
-                                <div class="form-group col-12 col-md-6 col-lg-4">
+                                <div class="form-group col-12 col-md-6 col-lg-8">
 
                                     <label for="name">Name*</label>
 
