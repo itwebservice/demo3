@@ -2841,6 +2841,10 @@ color: #ffffff;
 box-shadow: none !important;
 }
 
+.header-offer-btn:hover{
+background: #444444 !important;
+}
+
 .header-offer-btn .btn:hover {
 -webkit-box-shadow: none;
 box-shadow: none;
