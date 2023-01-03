@@ -101,7 +101,7 @@ include 'layouts/header.php';
 
         </div>
 
-        <h2 class="ts-section-title">Why Choose Us?</h2>
+        <h2 class="ts-section-title">WHY CHOOSE US?</h2>
 
 
 
@@ -267,14 +267,14 @@ include 'layouts/header.php';
 
                 <div class="ts-special-content__inner">
 
-                    <h2 class="ts-section-title">Special offer on early discount!</h2>
+                    <h2 class="ts-section-title">Special Offer On Early Discount!</h2>
 
                     <p class="ts-section-description">Our Well Experienced tourism professionals serve tourists better
                         as per their convenience. You Can Contact us any time 24*7. We Provides efficient, reliable &
                         Cost effective Services anywhere in the world.</p>
 
                     <div class="abt-btn">
-                        <a href="contact.php" class="btn btn-primary">Contact Us</a>
+                        <a href="contact.php" target="_blank" class="btn btn-primary">Contact Us</a>
                     </div>
 
                 </div>
